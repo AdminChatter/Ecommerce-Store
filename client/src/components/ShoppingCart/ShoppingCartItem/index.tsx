@@ -1,17 +1,17 @@
 import CartItem from "../../../interfaces/CartItem";
-import React, { useState } from "react";
+import { useState } from "react";
 import auth from "../../../utils/auth";
 import { useMutation } from "@apollo/client";
 import { gql } from "graphql-tag";
 
 
 const UPDATE_CART_ITEM = gql`
-  mutation UpdateCartItem($authId: String!, $itemId: String!, $quantity: Int!) {
+    mutation UpdateCartItem($authId: String!, $itemId: String!, $quantity: Int!) {
     updateCartItem(authId: $authId, itemId: $itemId, quantity: $quantity) {
-      id
-      quantity
+        id
+        quantity
     }
-  }`;
+    }`;
 
 const ShoppingCartItem = ({ item }: { item: CartItem }) => {
     const { id, img, itemName, price } = item;
