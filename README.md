@@ -2,102 +2,119 @@
 An e-commerce web application that allows users to browse products, filter by categories, add items to a cart, and proceed to checkout. Built with a full-stack architecture featuring GraphQL, Apollo Server, React, and Cypress for testing.
 
 ## Table of Contents
-Features
+- [Installation](#installation)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [Technologies](#technologies)
+- [How to Contribute](#how-to-contribute)
 
-Technologies
-
-Getting Started
-
-Installation
-
-Running the Application
-
-Contributing
-
-License
-
-## Features
-Product Listing: Browse available products with essential details (name, price, description, stock).
-
-Search and Filters: Search products by name and filter by categories like "Electronics" or "Clothing."
-
-Shopping Cart: Add/remove items from the cart and view totals.
-
-User Authentication: Register, log in, and maintain user sessions securely.
-
-GraphQL API: Fast and flexible queries/mutations for managing users, products, and orders.
-
-Responsive Design: Optimized for desktops, tablets, and mobile devices.
-
-End-to-End Testing: Validates functionality with Cypress.
-
-# Technologies
-## Backend
-Node.js with Express
-
-Apollo Server for GraphQL
-
-Sequelize with PostgreSQL
-
-JWT for authentication
-
-## Frontend
-React with TypeScript
-
-Apollo Client for GraphQL queries
-
-Styled Components for UI styling
-
-
-# Getting Started
 ## Installation
-Clone the repository:
 
-```git clone git@github.com:usamabadarr/Ecommerce-Store.git```
+1. Clone the repository:
 
-cd ecommerce-store
-Set up environment variables:
+    ```git clone git@github.com:usamabadarr/Ecommerce-Store.git```
 
-Copy .env.example to .env in both server and client directories.
-Update database credentials, JWT secret, and API URLs.
+    cd ecommerce-store
+    Set up environment variables:
 
-## Install dependencies:
+    Copy .env.example to .env in both server and client directories.
+    Update database credentials, JWT secret, and API URLs.
 
-```npm install```
+2. Install dependencies:
 
-```cd server && npm install```
+    ```npm install```
 
-```cd ../client && npm install```
+    ```cd server && npm install```
 
-## Run the Application
+    ```cd ../client && npm install```
 
-Start the development servers:
+3. Run the Application
 
-```npm run start:dev```
+    Start the development servers:
 
-Open your browser and navigate to:
+    ```npm run start:dev```
 
-```http://localhost:3000```
+    Open your browser and navigate to:
 
-The backend GraphQL server runs on:
+    ```http://localhost:3000```
 
-```http://localhost:3001/graphql```
+    The backend GraphQL server runs on:
 
-## Contributing
-We welcome contributions! To contribute:
+    ```http://localhost:3001/graphql```
 
-Fork the repository.
+## Credits
 
-Create a new branch:
+    Made by Cameron Bukoski, XiangZhen(Jason) Wu, RICARDO RAPHAEL, Usama Badar, and Chris Crumbley
 
-```git checkout -b feature-name```
+   1. [Jason's GitHub](https://github.com/AdminChatter)
 
-Commit your changes and push:
+   2. [RICARDO RAPHAEL's GitHub](https://github.com/rphilippe2) 
 
-```git push origin feature-name```
+   3. [Chris Crumbley's GitHub](https://github.com/RealChillyPalmer)
 
-Open a Pull Request.
+   4. [Usama Badar's GitHub](https://github.com/usamabadarr)
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+    This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.<BR>
+    Click the license above to learn more about this license.
+
+## Badges
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg)
+![Javascript](https://img.shields.io/badge/Javascript-blue.svg)
+![MongoDB](https://img.shields.io/badge/MongoDB-green.svg)
+![Mongoose](https://img.shields.io/badge/Mongoose-green.svg)
+![Apollo Server](https://img.shields.io/badge/ApolloServer-green.svg)
+
+## Features
+
+    Product Listing: Browse available products with essential details (name, price, description, stock).
+
+    Search and Filters: Search products by name and filter by categories like "Electronics" or "Clothing."
+
+    Shopping Cart: Add/remove items from the cart and view totals.
+
+    User Authentication: Register, log in, and maintain user sessions securely.
+
+    GraphQL API: Fast and flexible queries/mutations for managing users, products, and orders.
+
+    Responsive Design: Optimized for desktops, tablets, and mobile devices.
+
+    End-to-End Testing: Validates functionality with Cypress.
+
+## Technologies
+1. Backend
+    Node.js with Express
+
+    Apollo Server for GraphQL
+
+    MongoDB and Mongoose
+
+    JWT for authentication
+
+2. Frontend
+    React with TypeScript
+
+    Apollo Client for GraphQL queries
+
+    Styled Components for UI styling
+
+
+## How to Contribute
+    We welcome contributions! To contribute:
+
+    Fork the repository.
+
+    Create a new branch:
+
+    ```git checkout -b feature-name```
+
+    Commit your changes and push:
+
+    ```git push origin feature-name```
+
+    Open a Pull Request.
